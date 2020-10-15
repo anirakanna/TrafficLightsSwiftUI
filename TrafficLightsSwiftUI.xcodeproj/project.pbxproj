@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8031FE162538C62C0087C04C /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031FE152538C62C0087C04C /* BackgroundColor.swift */; };
 		808342C92537881B00508414 /* TrafficLightsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808342C82537881B00508414 /* TrafficLightsSwiftUIApp.swift */; };
 		808342CB2537881B00508414 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808342CA2537881B00508414 /* ContentView.swift */; };
 		808342CD2537881F00508414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808342CC2537881F00508414 /* Assets.xcassets */; };
 		808342D02537881F00508414 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808342CF2537881F00508414 /* Preview Assets.xcassets */; };
+		808342D92537886800508414 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808342D82537886800508414 /* ColorCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8031FE152538C62C0087C04C /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
 		808342C52537881B00508414 /* TrafficLightsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLightsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		808342C82537881B00508414 /* TrafficLightsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsSwiftUIApp.swift; sourceTree = "<group>"; };
 		808342CA2537881B00508414 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		808342CC2537881F00508414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		808342CF2537881F00508414 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		808342D12537881F00508414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808342D82537886800508414 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				808342C82537881B00508414 /* TrafficLightsSwiftUIApp.swift */,
 				808342CA2537881B00508414 /* ContentView.swift */,
+				808342D82537886800508414 /* ColorCircle.swift */,
+				8031FE152538C62C0087C04C /* BackgroundColor.swift */,
 				808342CC2537881F00508414 /* Assets.xcassets */,
 				808342D12537881F00508414 /* Info.plist */,
 				808342CE2537881F00508414 /* Preview Content */,
@@ -140,6 +146,8 @@
 			files = (
 				808342CB2537881B00508414 /* ContentView.swift in Sources */,
 				808342C92537881B00508414 /* TrafficLightsSwiftUIApp.swift in Sources */,
+				8031FE162538C62C0087C04C /* BackgroundColor.swift in Sources */,
+				808342D92537886800508414 /* ColorCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
